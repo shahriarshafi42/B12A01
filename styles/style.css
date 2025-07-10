@@ -1,6 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: Raleway;
+
 }
 
 /* nav starts here  */
@@ -8,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
-     max-width:1120px;
+    max-width: 1120px;
     margin: 0 auto;
     align-items: center;
 
@@ -33,26 +35,167 @@ nav {
     text-align: center;
     border: none;
 }
+
 /* banner setion  */
-.banner{
+.banner {
     text-align: center;
-    font-family:Raleway;
-    max-width:1120px;
+
+    max-width: 1120px;
     margin: 0 auto;
     align-items: center;
 }
 
 
-.cool{
-     height: 152px;
+.cool {
+    height: 152px;
     width: 905px;
     font-size: 65px;
     text-align: center;
-     margin: 80px auto;
-   
+    margin: 80px auto;
+
 }
+
 /* header sectiopn  */
-.header{
+.header {
     background-image: url("../Assets/Hero-bg.png");
     height: 550px;
+}
+
+/* action  */
+.action {
+    max-width: 1120px;
+    margin: 80px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.see {
+    text-align: left;
+    width: 48%;
+
+
+
+}
+
+.seeit {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.explore {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 20px;
+
+
+}
+
+section div img {
+    width: 403px;
+    height: 328px;
+    border-radius: 50px;
+
+}
+
+/* join  */
+.join {
+
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Thousands {
+    font-weight: 70px;
+    font-size: 38px;
+    margin-top: 20px;
+    padding-top: 40px;
+
+}
+
+.Users {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 180px;
+
+}
+
+.colors {
+    color: rgb(78, 71, 255);
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+.color {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* what our  */
+.what {
+    height: 342px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.our {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.stars {
+    width: 366px;
+    height: 240px;
+    padding-left: 25px;
+    border-radius: 10px;
+    background: rgb(245, 248, 255);
+
+
+}
+
+.star {
+    margin-top: 25px;
+}
+
+section div .star img {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 20px;
+}
+
+.pictures {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.picture img {
+    height: 33px;
+    width: 33px;
+}
+
+.love {
+    margin-bottom: 20px;
 }
