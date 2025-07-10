@@ -199,8 +199,9 @@ section div .star img {
 .love {
     margin-bottom: 20px;
 }
+
 /* lets get  */
-.title{
+.title {
     max-width: 1140px;
     margin: 0 auto;
     height: 620px;
@@ -209,20 +210,26 @@ section div .star img {
     justify-content: center;
     gap: 10px;
 }
-.lets{
+
+.lets {
     font-size: 65px;
     font-weight: 700;
 }
-label{
+
+label {
     font-weight: 500;
     font-size: 20px;
 }
-input::placeholder , textarea{
+
+input::placeholder,
+textarea {
     padding: 20px 32px;
 
-    
+
 }
-input, textarea{
+
+input,
+textarea {
     height: 50px;
     width: 400px;
     margin-bottom: 20px;
@@ -232,43 +239,57 @@ input, textarea{
     background-color: rgb(245, 248, 255);
     border: none;
 }
-.btn-primary1{
-   
+
+.btn-primary1 {
+
     width: 100%;
     text-align: center;
 }
+
 /* logo footer */
-.lego{
-    font-size:100px ;
+.lego {
+    font-size: 100px;
     font-weight: 900;
     color: rgb(78, 71, 255);
     text-align: center;
 }
-.Ready{
-    font-size: 16px;   
+
+.Ready {
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: rgb(137, 135, 161);
     margin-top: 20px;
 }
-.Home{
+
+.Home {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     gap: 40px;
     margin-bottom: 50px;
 }
+
 div .Home li {
     list-style-type: none;
 }
-div .Home a{
-    
+
+div .Home a {
+
     text-decoration: none;
     color: rgb(137, 135, 161);
 }
-footer{
-   padding-top: 100px;
+
+footer {
+    padding-top: 100px;
     background-color: rgb(245, 248, 255);
     height: 300px;
     align-items: center;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: #F0E68C;
+    cursor: pointer;
+
 }
